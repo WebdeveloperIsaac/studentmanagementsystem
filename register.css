@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+@CHARSET "ISO-8859-1";
+
+body{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    background: linear-gradient(90deg,pink,cyan,rgb(144, 219, 144));
+
+}
+@media only screen and (min-width:600px) {
+    body{
+  background:linear-gradient(10deg,black);
+    }
+}
+.form-container{
+    display:block;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.inputs{
+    width:20vw;
+    margin: 5px;
+    padding: 5px;
+}
+@media only screen and(min-width:600px) {
+    body{
+        width: 30vw;
+    }
+}
+.btn{
+    background-color: wheat;
+    padding: 3px;
+    margin: 3px;
+}
+
+.btn :hover{
+    transition: 1s ease-in-out;
+    background-color: rgb(21, 247, 89);
+}

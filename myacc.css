@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+body{
+    background: linear-gradient(90deg,pink,cyan,rgb(144, 219, 144));
+}
+
+.form{
+	display:inline-block;
+    text-align: center;
+    margin-left: 40%;
+	background: linear-gradient(90deg,pink,cyan,rgb(144, 219, 144));
+	padding: 20px;
+}
+ h1{
+	font-size:30px;
+    display: block;
+    text-align: center;
+}
+.ips{
+     display: inline-block;
+}
+.btn{
+    background-color: beige;
+    display:block;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.btn :hover{
+    background-color: blue;
+    size: 45px;
+}

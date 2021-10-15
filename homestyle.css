@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+body{
+    margin:0;
+    padding:0;
+    background-image:url(ait.jpg);
+    background-size:cover;
+}
+.container{
+    width: 100%;
+}
+.button-container{
+    display: inline-flex;
+    float: left;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 100px;
+    
+    height:100% ;
+    width: 15%;
+}
+.btns{
+    padding: 20px;
+    margin: 10px;
+}

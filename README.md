@@ -5,3 +5,4 @@ Allows students to create an account
 Login to the account
 Delete or update any content of the acoount 
 Watch thier Details
+It strenthens Grip of Connecting javaservlet for connecting with database
